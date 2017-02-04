@@ -7,7 +7,7 @@ Since [mega.py](https://github.com/richardasaurus/mega.py) is broken here is doc
 1. start container
   * `git clone https://github.com/bitswarming/duplicity2mega.git`
   * `cd duplicity2mega`
-  * edit `.env` file. set PASSPHRASE (pass for encrypted backups), USERNAME (mega login),PASSWORD (mega password)
+  * edit `.env` file. set PASSPHRASE (pass for encrypted backups), USERNAME (mega login),PASSWORD (mega password), optionally change HOSTNAME,VOLSIZE (backup volume size),OLDERTHAN (full backup if older),TZ (timezone), RESTOREDPATH (path for restored files)
   * `sudo docker-compose  -f docker-compose.yml up -d` after build docker container named megafuse launched and mega already connected 
 1. backup and restore
 set list of folders to backup at configs/include.txt 
