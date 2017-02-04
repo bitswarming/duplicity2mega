@@ -1,0 +1,2 @@
+/hostdisk/path/to/backup/1
+/hostdisk/path/to/backup/2
