@@ -3,7 +3,7 @@ Since [mega.py](https://github.com/richardasaurus/mega.py) is broken here is doc
 
 
 ##How to use:
-1. create free [mega account[(https://mega.nz)
+1. create free [mega account](https://mega.nz)
 1. start container
   * `git clone https://github.com/bitswarming/duplicity2mega.git`
   * `cd duplicity2mega`
