@@ -1,4 +1,4 @@
-# dupmega
+# duplicity2mega
 Since [mega.py](https://github.com/richardasaurus/mega.py) is broken here is docker based replacement
 
 `docker pull bitswarming/duplicity2mega`
