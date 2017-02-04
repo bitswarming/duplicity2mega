@@ -4,6 +4,7 @@ Since [mega.py](https://github.com/richardasaurus/mega.py) is broken here is doc
 
 ##How to use:
 1. create free [mega account[(https://mega.nz)
+
 2. start container
 
 fast `docker pull bitswarming/duplicity2mega`
