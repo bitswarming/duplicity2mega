@@ -6,7 +6,7 @@ duplicity \
     --asynchronous-upload \
     --volsize=$VOLSIZE \
     --log-file "$HOME/notice.log" \
-    --include-filelist=$HOME/configs/include.txt \
+    --include-globbing-filelist=$HOME/configs/include.txt \
     --exclude '**' \
     /hostdisk \
     file:///media/backups/$(hostname) -v info
