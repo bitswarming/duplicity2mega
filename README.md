@@ -16,4 +16,4 @@ set list of folders to backup at configs/include.txt
   * list backups with dates `sudo docker exec -it megafuse bash -c /root/configs/list.sh`
   * restore `sudo docker exec -it megafuse /root/configs/restore.sh "Sat Feb  4 16:53:38 2017" [filepath/filename]`
   * attach container and view megafuse communication logs `sudo docker logs  -f  megafuse`
- 1. after finish. stop container `sudo docker stop megafuse` and delete it `sudo docker rm megafuse`.
+1. after finish. stop container `sudo docker stop megafuse` and delete it `sudo docker rm megafuse`.
