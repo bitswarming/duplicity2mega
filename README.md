@@ -11,9 +11,9 @@ Since [mega.py](https://github.com/richardasaurus/mega.py) is broken here is doc
   * `sudo docker-compose  -f docker-compose.yml up -d` after build docker container named megafuse launched and mega already connected 
 1. backup and restore
 set list of folders to backup at configs/include.txt 
-  * backup with `sudo docker exec -it megafuse bash -c /root/configs/backup.sh`
-  * verify backup `sudo docker exec -it megafuse bash -c /root/configs/verify.sh [filepath/filename]`
-  * list backups with dates `sudo docker exec -it megafuse bash -c /root/configs/list.sh`
+  * backup with `sudo docker exec -it megafuse /root/configs/backup.sh`
+  * verify backup `sudo docker exec -it megafuse /root/configs/verify.sh [filepath/filename]`
+  * list backups with dates `sudo docker exec -it megafuse /root/configs/list.sh`
   * restore `sudo docker exec -it megafuse /root/configs/restore.sh "Sat Feb  4 16:53:38 2017" [filepath/filename]`
   * attach container and view megafuse communication logs `sudo docker logs  -f  megafuse`
 1. Be carefull host filesystem mouted in container at /hostdisk. After finish stop container `sudo docker-compose -f docker-compose.yml down`.
