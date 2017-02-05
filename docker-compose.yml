@@ -23,7 +23,6 @@ services:
     stdin_open: true
     tty: true
     container_name: megafuse
-    command: MegaFuse -c /root/megafuse.conf
     command:  >
       sh -c "ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && 
       echo $TZ > /etc/timezone &&
